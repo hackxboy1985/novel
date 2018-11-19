@@ -17,7 +17,7 @@ import com.ifengxue.novel.spider.util.NovelSpiderUtil;
 
 /**
  * @author LiuKeFeng
- * @date   2016Äê10ÔÂ1ÈÕ
+ * @date   2016å¹´10æœˆ1æ—¥
  */
 public class NovelSpiderTest {
 	@Test
@@ -45,9 +45,9 @@ public class NovelSpiderTest {
 		// http://www.biquge.tw/0_5/
 		// http://www.23wx.com/html/42/42377/
 		NovelSpiderUtil.setRootPath("D:/project/novelspider");
-		String url = "http://www.bxwx8.org/b/70/70093/index.html";
+		String url = "http://www.bxwx9.org/b/70/70093/index.html";
 		NovelDownloaderObserver observer = new NovelDownloaderObserver(url);
 		observer.process();
-		System.out.println("ºÏ²¢ºóµÄÎÄ¼şµØÖ·£º" + NovelSpiderUtil.getNovelMergePath(url));
+		System.out.println("åˆå¹¶åçš„æ–‡ä»¶åœ°å€ï¼š" + NovelSpiderUtil.getNovelMergePath(url));
 	}
 }
