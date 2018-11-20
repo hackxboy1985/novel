@@ -1,9 +1,9 @@
 package com.ifengxue.novel.spider.interfaces;
 
 /**
- * ±»¹Û²ìÕß
+ * è§‚å¯Ÿè€…
  * @author LiuKeFeng
- * @date   2016Äê9ÔÂ26ÈÕ
+ * @date   2016å¹´9æœˆ17æ—¥
  */
 public interface Observable {
 	public void registerObserver(Observer observer);
